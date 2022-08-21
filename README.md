@@ -11,7 +11,7 @@ Useful for compilations or full album uploads.
 
 ## Install
 
-1. Download the binary for your system from https://github.com/redsolver/yt-splitter/releases
+1. Download the binary for your system from https://github.com/nicolaasjan/yt-splitter/releases
 2. Rename it to `yt-splitter`
 3. Place it in a directory which is in your `PATH`
 4. Make it executable (`chmod +x yt-splitter` on Linux)
