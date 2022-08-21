@@ -50,7 +50,7 @@ void main(List<String> arguments) async {
         '--extract-audio',
         '--audio-format',
         'mp3',
-        '--audio-quality,
+        '--audio-quality',
         '0',
         '--output',
         'output.%(ext)s',
