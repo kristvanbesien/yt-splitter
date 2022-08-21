@@ -47,6 +47,8 @@ void main(List<String> arguments) async {
         //'--write-description',
         '--write-info-json',
         '--write-thumbnail',
+        '--format',
+        'bestaudio',
         '--extract-audio',
         '--audio-format',
         'mp3',
