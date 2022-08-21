@@ -50,7 +50,8 @@ void main(List<String> arguments) async {
         '--extract-audio',
         '--audio-format',
         'mp3',
-        '--audio-quality 0',
+        '--audio-quality,
+        '0',
         '--output',
         'output.%(ext)s',
         'https://www.youtube.com/watch?v=$videoId'
