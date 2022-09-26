@@ -7,7 +7,7 @@ Useful for compilations or full album uploads.
 
 ## Requirements
 
-`youtube-dl` and `ffmpeg` installed and in your `PATH`.
+`yt-dlp` and `ffmpeg` installed and in your `PATH`.
 
 ## Install
 
