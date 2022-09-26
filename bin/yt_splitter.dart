@@ -40,7 +40,7 @@ void main(List<String> arguments) async {
   if (!File(mp3FilePath).existsSync()) {
     print('Downloading and converting audio file from YouTube...');
     final process = await Process.start(
-      'youtube-dl',
+      'yt-dlp',
       [
         //'--add-metadata',
         //'--embed-thumbnail',
@@ -81,7 +81,7 @@ void main(List<String> arguments) async {
 
     var buildCode = await process.exitCode;
 
-    if (buildCode != 0) throw 'YouTube-DL failed.';
+    if (buildCode != 0) throw 'yt-dlp failed.';
   }
 
   final data = json.decode(File(jsonFilePath).readAsStringSync());
@@ -92,7 +92,7 @@ void main(List<String> arguments) async {
 
   if ((data['chapters'] ?? []).isEmpty) {
     stderr.writeln(
-        'Error: This video does not contain chapters. Just use youtube-dl instead.');
+        'Error: This video does not contain chapters. Just use yt-dlp instead.');
     exit(1);
   }
 
