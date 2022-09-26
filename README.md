@@ -5,7 +5,7 @@
 Downloads and splits audio tracks from a YouTube video according to the chapters/tracks.
 Useful for compilations or full album uploads.
 
-This fork uses **yt-dlp** instead of youtube-dl and also gives mp3 with best quality (256kbps; VBR).
+This fork uses **yt-dlp** instead of youtube-dl and also gives mp3 with better quality (256kbps; VBR).
 
 ## Requirements
 
